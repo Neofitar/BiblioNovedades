@@ -1,0 +1,37 @@
+.all-books {
+    margin: 5%;
+}
+
+.all-books div {
+    padding: 2%;
+}
+
+.books {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.books img {
+    width: 650px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.books-details h2 {
+    font-size: 30px;
+    color: var(--background-blanco);
+    font-family: var(--letra);
+}
+
+.books-details h3 {
+    font-size: 20px;
+    color: var(--background-blanco);
+    font-family: var(--letra);
+}
+
+.books-details p {
+    font-size: 15px;
+    color: var(--background-blanco);
+}
