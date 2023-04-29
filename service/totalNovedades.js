@@ -39,14 +39,6 @@ const diccionario = {
   ]
 };
 
-diccionario.libros.forEach(libro => {
-  const nuevaNovedad = crearNovedad(libro.cover, libro.titulo, libro.autor, libro.descripcion, libro.url);
-  totalNovedades.appendChild(nuevaNovedad);
-});
-
-
-
-
 const http = new XMLHttpRequest();
 
 http.open("GET", "  http://localhost:3000/libros")
