@@ -2,6 +2,11 @@
     --background-negro:#10202D;
     --background-blanco:#ffff;
     --background-lila:#752CD2;
+    --color-f-derecho:red;
+    --color-f-educacion:blue;
+    --color-f-economia:green;
+    --color-f-ingenieria:purple;
+    --color-f-arquitectura:white;
     --letra:'Roboto', sans-serif;
 }
 
