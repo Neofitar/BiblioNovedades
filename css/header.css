@@ -2,7 +2,7 @@ body {
     background-color: var(--background-negro);
 }
 
-.header-elements {
+.header-elements a{
     background-color: var(--background-negro);
     display: flex;
     justify-content: center;
@@ -11,6 +11,7 @@ body {
 
 .header-elements img{
     width: 50%;
+    object-fit: cover;
 }
 
 

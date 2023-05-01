@@ -1,0 +1,13 @@
+.footer-id {
+    padding: 2%;
+    color: var(--background-blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-id img {
+    margin-bottom: 10px;
+}
