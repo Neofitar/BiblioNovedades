@@ -14,7 +14,6 @@
     align-items: center;
     border: 1px solid var(--background-gris);
     border-radius: 20px;
-    border-top: none;
 }
 
 
@@ -81,8 +80,6 @@
 .button-acceso:hover {
     background-color: var(--background-lila);
 }
-
-@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 530px) {
     .all-books {
