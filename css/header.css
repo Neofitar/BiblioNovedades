@@ -14,5 +14,21 @@ body {
     object-fit: cover;
 }
 
+.banner-tema img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 800px) {
+    .banner-tema img {
+        transition: 1s;
+        width: 50%;
+    }
+    
+}
 
 
