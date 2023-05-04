@@ -15,6 +15,18 @@ const crearNovedad = (cover, titulo, autor, descripcion, url) => {
   };
   
   const totalNovedades = document.querySelector("[data-novedades]");
+
+  $('.all-books[data-novedades]').slick({
+    slidesToShow: 3, // Muestra 3 elementos a la vez
+    slidesToScroll: 1, // Desplaza 1 elemento a la vez
+    vertical: true, // Desplazamiento vertical
+    verticalSwiping: true, // Swiping vertical
+    autoplay: true, // Reproducción automática
+    autoplaySpeed: 3000, // Velocidad de la reproducción automática en milisegundos
+    arrows: true, // Flechas de navegación
+    dots: false // Puntos de navegación
+    });
+
   
   const diccionario = {
     libros: [
@@ -25,8 +37,18 @@ const crearNovedad = (cover, titulo, autor, descripcion, url) => {
         autor: "Antonio Ortuño Sahagún",
         tema: "Literatura",
         descripcion: "Barry Dávila, un cuarentón que viste como metalero de los años ochenta, tiene un plan: reunir a La Armada Invencible, el grupo de heavy y thrash con el que pudo haber triunfado si las peleas internas y una sociedad sorda ante la crudeza de su música no le hubieran cerrado el camino.",
-        url: "https://biblioteca.ugc.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=254890&query_desc=kw%2Cwrdl%3A%20a"
-      }
+        url: "https://cdn.milenio.com/uploads/media/2022/10/13/portada-armada-invencible-antonio-ortuno.jpg"
+      },
+      {
+        id: "1",
+        cover: "https://biblioteca.ugc.edu.co/cgi-bin/koha/opac-image.pl?thumbnail=1&biblionumber=254890",
+        titulo: "La Armada Invencible",
+        autor: "Antonio Ortuño Sahagún",
+        tema: "Literatura",
+        descripcion: "Barry Dávila, un cuarentón que viste como metalero de los años ochenta, tiene un plan: reunir a La Armada Invencible, el grupo de heavy y thrash con el que pudo haber triunfado si las peleas internas y una sociedad sorda ante la crudeza de su música no le hubieran cerrado el camino.",
+        url: "https://cdn.milenio.com/uploads/media/2022/10/13/portada-armada-invencible-antonio-ortuno.jpg"
+      },
+      
     ]
   };
   

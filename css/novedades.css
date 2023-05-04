@@ -81,6 +81,22 @@
     background-color: var(--background-lila);
 }
 
+
+@keyframes aparecer {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .all-books[data-novedades] {
+    animation: aparecer 1s ease-out;
+  }
+  
+
+
+
 @media screen and (max-width: 530px) {
     .all-books {
         margin: 3%;
