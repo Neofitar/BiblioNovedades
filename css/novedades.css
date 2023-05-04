@@ -24,12 +24,17 @@
 }
 
 .books img {
-    width: 100%;
+    width: 40%;
     height: 300px;
     margin: 10px;
     border-radius: 20px;
     object-fit: cover;
 }
+
+.books-details {
+    width: 60%;
+}
+
 
 .books-details h2 {
     font-size: 30px;

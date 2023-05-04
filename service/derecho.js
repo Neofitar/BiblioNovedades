@@ -1,7 +1,7 @@
 const crearNovedad = (cover, titulo, autor, descripcion, url) => {
     const novedad = document.createElement('div');
   
-    const detallesNovedad = `<div class="books">
+    const detallesNovedad = `<div class="books" id="books-derecho">
     <img class="cover" src="${cover}" alt="${titulo}">
     <div class="books-details">
         <h2 class="books-titulo">${titulo}</h2>
@@ -62,7 +62,8 @@ const crearNovedad = (cover, titulo, autor, descripcion, url) => {
         tema: "Educación",
         descripcion: "Cuando un docente, estudiante o investigador desea llevar a cabo una investigación necesita tener a la mano un documento sencillo que lo guíe, que le permita revisar de manera concreta, práctica y con un ejemplo orientador los pasos del proceso investigativo.",
         url: "https://www.udllibros.com/imagenes/9788416/978841696821.JPG?version=98063"
-      },    {
+      },    
+      {
         id: "4",
         cover: "https://images-na.ssl-images-amazon.com/images/P/9585033607.01.MZZZZZZZ.jpg",
         titulo: "Metodología de la investigación propuesta, anteproyecto y proyecto",

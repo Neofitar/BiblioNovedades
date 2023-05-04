@@ -1,7 +1,7 @@
 const crearNovedad = (cover, titulo, autor, descripcion, url) => {
     const novedad = document.createElement('div');
   
-    const detallesNovedad = `<div class="books">
+    const detallesNovedad = `<div class="books" id="books-arquitectura">
     <img class="cover" src="${cover}" alt="${titulo}">
     <div class="books-details">
         <h2 class="books-titulo">${titulo}</h2>
