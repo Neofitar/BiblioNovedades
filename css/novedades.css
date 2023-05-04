@@ -23,6 +23,30 @@
         0.3em 0.3em 1em var(--background-lila, 0.1);
 }
 
+#books-derecho:hover {
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em var(--color-f-derecho, 0.1);
+}
+
+#books-educacion:hover {
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em var(--color-f-educacion, 0.1);
+}
+
+#books-arquitectura:hover {
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em var(--color-f-arquitectura, 0.1);
+}
+
+#books-economia:hover {
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em var(--color-f-arquitectura, 0.1);
+}
+
 .books img {
     width: 40%;
     height: 300px;
@@ -86,6 +110,22 @@
     background-color: var(--background-lila);
 }
 
+#button-acceso-derecho:hover {
+    background-color: var(--color-f-derecho);
+}
+
+#button-acceso-educacion:hover {
+    background-color: var(--color-f-educacion);
+}
+
+#button-acceso-arquitectura:hover {
+    background-color: var(--color-f-arquitectura);
+}
+
+#button-acceso-economia:hover {
+    background-color: var(--color-f-economia);
+}
+
 
 @keyframes aparecer {
     from {
@@ -96,7 +136,7 @@
     }
   }
   .all-books[data-novedades] {
-    animation: aparecer 1s ease-out;
+    animation: aparecer 1.5s ease-out;
   }
   
 
