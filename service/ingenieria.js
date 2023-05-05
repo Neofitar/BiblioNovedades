@@ -7,7 +7,7 @@ const crearNovedad = (cover, titulo, autor, descripcion, url) => {
         <h2 class="books-titulo">${titulo}</h2>
         <h3 class="books-autor">${autor}</h3>
         <p class="books-descripcion">${descripcion}</p>
-        <li class="button-acceso" id="button-acceso-arquitectura"><a href="${url}" target="_blank">Ver más</a></li>
+        <li class="button-acceso" id="button-acceso-arquitectura"><a href="${url}" target="_blank">Consulta aquí</a></li>
     </div>`;
 
   novedad.innerHTML = detallesNovedad;
