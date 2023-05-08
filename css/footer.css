@@ -13,3 +13,14 @@
 .footer-id img {
     margin: 10px 0;
 }
+
+.whats {
+    background: var(--background-blanco);
+    border: 1px solid var(--background-blanco);
+    border-radius: 100%;
+}
+
+.whats:hover {
+    transition: 0.5s;
+    border: 1px solid green;
+}
