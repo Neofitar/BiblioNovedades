@@ -94,6 +94,14 @@
     overflow: hidden;
 }
 
+.books-details p:hover {
+    transition: 1s;
+    display: block;
+}
+
+
+
+
 .button-acceso {
     text-decoration: none;
     list-style-type: none;
