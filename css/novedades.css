@@ -72,6 +72,11 @@
     overflow: hidden;
 }
 
+.books-details h2:hover {
+    transition: 0.8s;
+    display: block;
+}
+
 
 .books-details h3 {
     font-size: 20px;
@@ -82,6 +87,11 @@
     -webkit-line-clamp: 2;
     line-clamp: 2;
     overflow: hidden;
+}
+
+.books-details h3:hover {
+    transition: 0.8s;
+    display: block;
 }
 
 .books-details p {
@@ -102,6 +112,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 .button-acceso {
     text-decoration: none;
     list-style-type: none;
