@@ -2,16 +2,29 @@ body {
     background-color: var(--background-negro);
 }
 
-.header-elements a{
-    background-color: var(--background-negro);
+.header-elements {
     display: flex;
-    justify-content: center;
+}
+
+.header-elements a{
+    display: flex;
+    justify-content:space-around;
     align-items: center;
 }
 
 .header-elements img{
     width: 50%;
     object-fit: cover;
+}
+
+.header-banner {
+    margin-right: calc(-40%);
+}
+
+.header-logo {
+    width: 30%;
+    margin-left: 10%;
+    margin-top: -20%;
 }
 
 .banner-tema img {
@@ -22,14 +35,73 @@ body {
     object-fit: cover;
 }
 
+@media screen and (max-width: 1306px) {
 
-@media screen and (max-width: 800px) {
+    .header-elements {
+        transition: 1s;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
     .header-elements img {
         transition: 1s;
-        width: 70%;
+        width: 40%;
+        margin-top: 0;
         margin-bottom: 2%;
     }
+
+    .header-logo {
+        transition: 1s;
+        margin-top: 4%;
+        margin-left: 0;
+        width: 12%;
+    }
+
+    .header-banner {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .header-logo {
+        transition: 1s;
+        width: 42%;
+    }
+
     
 }
 
+
+@media screen and (max-width: 800px) {
+    
+    .header-elements img {
+        transition: 1s;
+        width: 50%;
+    }
+
+    .header-logo {
+        transition: 1s;
+        width: 40%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .header-elements img {
+        transition: 1s;
+        width: 70%;
+    }
+
+    .header-logo {
+        transition: 1s;
+        width: 40%;
+    }
+
+    
+}
 
