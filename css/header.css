@@ -50,7 +50,7 @@ body {
     .header-elements img {
         transition: 1s;
         width: 40%;
-        margin-top: 0;
+        margin-top: 25px;
         margin-bottom: 2%;
     }
 
