@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+nav {
+    margin-bottom: 50px;
+}
+
 .nav il {
     display: flex;
     justify-content: center;
