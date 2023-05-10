@@ -15,6 +15,7 @@ body {
 .header-elements img{
     width: 50%;
     object-fit: cover;
+    margin-top: 20px;
 }
 
 .header-banner {
