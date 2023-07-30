@@ -12,6 +12,12 @@ body {
     align-items: center;
 }
 
+.header-elements img {
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 2%;
+}
+
 .banner-tema img {
     display: flex;
     justify-content: center;
