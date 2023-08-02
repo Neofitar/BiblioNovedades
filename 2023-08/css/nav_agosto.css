@@ -1,6 +1,12 @@
+.body-ago {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
 .nav-elements {
     margin: 3% 4%;
     align-items: center;
+
 }
 
 .nav {
