@@ -1,3 +1,4 @@
+
 .body-ago {
     background-color: #fff;
     padding-bottom: 20px;
@@ -86,18 +87,43 @@
     border: 3px solid var(--background-lila);
 }
 
+.header-banner {
+    display: flex;
+    justify-content: center;
+}
 
 .header-elements-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 2%;
     text-align: center;
+    background-color:#f7f7f7;
+    padding: 20px;
+}
+
+.header-banner img {
+    width: 20%;
 }
 
 .header-banner-section img {
-    margin-top: 20px;
-    width: 80px;
+    margin-top: 5px;
+    width: 100px;
 }
 
+.menu-img:hover {
+    transition: 0.1s;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 100px;
+}
+
+.header-title-section {
+    color: var(--background-negro);
+}
+
+@media screen and (max-width: 600px) {
+    .header-banner img {
+        transition: 1s;
+        width: 40%;
+    }
+}

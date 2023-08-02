@@ -1,6 +1,8 @@
 .all-books {
     margin: 5%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .all-books div {
@@ -8,13 +10,13 @@
 }
 
 .books {
-    width: 100%;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--background-gris);
     border-radius: 20px;
-    gap: 20px;
+    gap: 10px;
 }
 
 
