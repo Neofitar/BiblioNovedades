@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#nav-element-2").load("/2023-08/componentes/nav.html");
+        });
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
+
+    <link rel="stylesheet" href="../../css/resert.css">
+    <link rel="stylesheet" href="../../css/colores.css">
+    <link rel="stylesheet" href="../css/nav_agosto.css">
+    <link rel="stylesheet" href="../css/novedades_agosto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <title>¡Ciencias Económicas y Empresariales!</title>
+</head>
+
+<body>
+    <main>
+        <section class="nav-elements">
+            <nav>
+                <div id="nav-element-2"></div>
+            </nav>
+        </section>
+
+        <header class="header-elements-section" id="libros-r">
+            <a class="header-banner-section" href="/2023-08/index.html"><img src="../img/icon-economia.png" alt="banner"></a>
+            <h2 class="header-title-section">Ciencias Económicas y Empresariales</h2>
+        </header>
+
+        <section class="all-books" data-novedades>
+        </section>
+    </main>
+    <script src="../service/economia.js"></script>
+</body>
+
+</html>

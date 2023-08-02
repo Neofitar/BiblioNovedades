@@ -1,0 +1,97 @@
+.nav-elements {
+    margin: 3% 4%;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--background-lila);
+}
+.title-categoria {
+    text-align: center;
+    color: var(--background-lila);
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.nav il {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: 1px solid var(--background-negro);
+    border-radius: 35px;
+    padding: 0 12px;
+    text-align: left;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--letra);
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    color: var(--background-negro);
+    font-size: 15px;
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.nav il:hover {
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.nav-derecho:hover {
+    transition: 0.1s;
+    border: 3px solid var(--color-f-derecho);
+}
+
+.nav-educacion:hover {
+    transition: 0.1s;
+    border: 3px solid var(--color-f-educacion);
+}
+
+.nav-arquitectura:hover {
+    transition: 0.1s;
+    border: 3px solid var(--color-f-arquitectura);
+
+}
+
+.nav-economia:hover {
+    transition: 0.1s;
+    border: 3px solid var(--color-f-economia);
+}
+
+.nav-literatura:hover {
+    transition: 0.1s;
+    border: 3px solid var(--background-lila);
+}
+
+
+.header-elements-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
+}
+
+.header-banner-section img {
+    margin-top: 20px;
+    width: 80px;
+}
+
