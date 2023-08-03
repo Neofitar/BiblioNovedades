@@ -83,3 +83,24 @@ nav {
         inset 0 -3em 3em rgba(0, 0, 0, 0.1),
         0.3em 0.3em 1em var(--background-lila, 0.1);
 }
+.menu-io a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.menu-io img {
+    width: 30px;
+    padding: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.menu-io img:hover {
+    transition: 0.2s;
+    background-color: #d4f34a;
+}

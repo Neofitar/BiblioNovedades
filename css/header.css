@@ -4,6 +4,7 @@ body {
 
 .header-elements {
     display: flex;
+    justify-content: center;
 }
 
 .header-elements a{
