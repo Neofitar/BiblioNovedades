@@ -15,30 +15,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ececec;
-    border-radius: 20px;
+    background-color: #E8E9EC;
+    border-radius: 30px 70px 70px 30px;
+    border: 5px double var(--background-blanco);
     gap: 10px;
 }
 
 
+
 .books:hover {
-    border: 2px solid var(--background-lila, 0.1);
+    border: 5px double var(--background-lila, 0.1);
 }
 
 #books-derecho:hover {
-    border: 2px solid var(--color-f-derecho, 0.1);
+    border: 5px double var(--color-f-derecho, 0.1);
 }
 
 #books-educacion:hover {
-    border: 2px solid var(--color-f-educacion, 0.1);
+    border: 5px double var(--color-f-educacion, 0.1);
 }
 
 #books-arquitectura:hover {
-    border: 2px solid var(--color-f-arquitectura, 0.1);
+    border: 5px double var(--color-f-arquitectura, 0.1);
 }
 
 #books-economia:hover {
-    border: 2px solid var(--color-f-economia, 0.1);
+    border: 5px double var(--color-f-economia, 0.1);
 }
 
 .books img {
@@ -185,6 +187,7 @@
         text-align: center;
         align-items: center;
         width: 230px;
+        border-radius: 30px;
         height: 100%;
     }
 
@@ -193,6 +196,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .books img {

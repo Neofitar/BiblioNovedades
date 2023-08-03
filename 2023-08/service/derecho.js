@@ -19,6 +19,9 @@ const totalNovedades = document.querySelector("[data-novedades]");
 const diccionario = {
   libros: [
     {id: '2',cover: '/img/portadas/02_por.png',titulo: 'Lugar de tránsito', autor: 'Juan Miguel Álvarez',tema: 'Derecho, política o periodísmo',descripcion: 'El galardonado periodista nos presenta esta recopilación de veinticinco crónicas hechas durante trece años a lo largo de las cuatro ciudades donde ha vivido: Cali, Bogotá, Pereira y Medellín, y otros rincones del país.',url: 'https://biblioteca.ugc.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=254916'},
+    {id: '2',cover: '/img/portadas/02_por.png',titulo: 'Lugar de tránsito', autor: 'Juan Miguel Álvarez',tema: 'Derecho, política o periodísmo',descripcion: 'El galardonado periodista nos presenta esta recopilación de veinticinco crónicas hechas durante trece años a lo largo de las cuatro ciudades donde ha vivido: Cali, Bogotá, Pereira y Medellín, y otros rincones del país.',url: 'https://biblioteca.ugc.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=254916'},
+    {id: '2',cover: '/img/portadas/02_por.png',titulo: 'Lugar de tránsito', autor: 'Juan Miguel Álvarez',tema: 'Derecho, política o periodísmo',descripcion: 'El galardonado periodista nos presenta esta recopilación de veinticinco crónicas hechas durante trece años a lo largo de las cuatro ciudades donde ha vivido: Cali, Bogotá, Pereira y Medellín, y otros rincones del país.',url: 'https://biblioteca.ugc.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=254916'},
+
   ]
 };
 
