@@ -1,6 +1,16 @@
-.body-ago {
-    background-color: #fff;
-    padding-bottom: 20px;
+html {
+        --s: 88px; /* control the size */
+      
+        --c: #fff;
+        --_g: conic-gradient(var(--c) 25%,#0000 0) 0 0;
+        background:
+          var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
+          var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
+          repeating-conic-gradient(#0000 0 25%,var(--c) 0 50%) 
+           var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
+          radial-gradient(50% 50%,#5BA691 98%,var(--c)) 
+           0 0/var(--s) var(--s);
+         
 }
 
 .nav-elements {
@@ -42,7 +52,8 @@
     align-items: center;
     width: 250px;
     height: 50px;
-    border: 1px solid var(--background-negro);
+    background-color: #E8E9EC;
+
     border-radius: 35px;
     padding: 0 12px;
     text-align: left;

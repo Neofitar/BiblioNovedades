@@ -1,3 +1,4 @@
+
 .all-books {
     padding-top: 150px;
     margin: 5%;
@@ -49,6 +50,7 @@
     margin: 10px;
     border-radius: 20px;
     object-fit: cover;
+
 }
 
 .books-details {
@@ -59,7 +61,7 @@
 
 
 .books-details h2 {
-    font-size: 30px;
+    font-size: 22px;
     font-family: var(--letra);
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -76,7 +78,7 @@
 
 
 .books-details h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--letra);
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -92,7 +94,7 @@
 }
 
 .books-details p {
-    font-size: 15px;
+    font-size: 14px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
