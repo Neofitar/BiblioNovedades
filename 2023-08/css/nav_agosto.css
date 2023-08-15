@@ -19,14 +19,6 @@ html {
 
 }
 
-.nav-elements_agosto {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-
 
 .nav {
     display: flex;
@@ -36,37 +28,39 @@ html {
     text-align: center;
     gap: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px solid var(--background-lila);
+    border-radius: 50px;
+    background-color: #ffffffe0 ;
+    box-shadow: 0 5px 15px rgba(0,0,0,.06);
 }
 
 .title-categoria {
     text-align: center;
-    color: var(--background-lila);
-    border-bottom: 1px solid;
-    padding-bottom: 15px;
+    color:  #fff;
+    background-color: #467c6d;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.06);
 }
 
 .nav il {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 250px;
-    height: 50px;
-    background-color: #E8E9EC;
-
+    height: 55px;
+    background-color: #467c6d;
     border-radius: 35px;
     padding: 0 12px;
-    text-align: left;
     margin-top: 2%;
     text-align: center;
     font-weight: bold;
     font-family: var(--letra);
+    box-shadow: 0 5px 15px rgba(0,0,0,.09);
 }
 
 .nav a {
     display: flex;
     align-items: center;
-    color: var(--background-negro);
+    color: #fff;
     font-size: 15px;
 }
 
@@ -83,33 +77,41 @@ html {
 
 .nav-derecho:hover {
     transition: 0.1s;
-    border: 3px solid var(--color-f-derecho);
+    background-color: var(--color-f-derecho);
 }
 
 .nav-educacion:hover {
     transition: 0.1s;
-    border: 3px solid var(--color-f-educacion);
+    background-color: var(--color-f-educacion);
 }
 
 .nav-arquitectura:hover {
     transition: 0.1s;
-    border: 3px solid var(--color-f-arquitectura);
+    background-color: var(--color-f-arquitectura);
 
 }
 
 .nav-economia:hover {
     transition: 0.1s;
-    border: 3px solid var(--color-f-economia);
+    background-color: var(--color-f-economia);
 }
 
 .nav-literatura:hover {
     transition: 0.1s;
-    border: 3px solid var(--background-lila);
+    background-color: var(--background-lila);
 }
 
 .header-banner {
     display: flex;
     justify-content: center;
+}
+.header-banner img {
+    object-fit: cover;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.09);
+    width: 30px;
 }
 
 .header-elements-section {
@@ -144,7 +146,7 @@ html {
 
 .menu-img:hover {
     transition: 0.1s;
-    border: 4px solid #9fbe37;;
+    border: 4px solid #5BA691;;
 }
 
 .header-title-section {
