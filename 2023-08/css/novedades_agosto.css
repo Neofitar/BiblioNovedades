@@ -16,11 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E8E9EC;
+    background-color: #fcfcfc;
     border-radius: 30px 70px 70px 30px;
     border: 5px double var(--background-blanco);
     gap: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.06);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.267);
 }
 
 
@@ -191,7 +191,7 @@
         text-align: center;
         align-items: center;
         width: 230px;
-        border-radius: 30px;
+        border-radius: 20px;
         height: 100%;
     }
 
