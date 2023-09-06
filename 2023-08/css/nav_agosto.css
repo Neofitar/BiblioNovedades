@@ -11,12 +11,12 @@ html {
         radial-gradient(50% 50%, #48726baf 98%, var(--c)) 0 0/var(--s) var(--s);
 }
 
-html, body, main {
+.body-ago-1 {
     height: 100%;
     position: relative;
-    display: flex;  
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .nav-elements {

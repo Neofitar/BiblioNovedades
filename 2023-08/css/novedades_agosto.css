@@ -1,7 +1,6 @@
-
 .all-books {
-    padding-top: 2150px;
     margin: 5%;
+    padding-top: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -170,7 +169,6 @@
 @media screen and (max-width: 1270px) {
     .all-books {
         margin: 3%;
-        padding-top: 4530px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -182,7 +180,6 @@
 @media screen and (max-width: 530px) {
     .all-books {
         margin: 3%;
-        padding-top: 7530px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -243,9 +240,6 @@
 
 @media screen and (max-width: 400px) {
 
-    .all-books {
-        padding-top: 7550px;
-    }
 
     .books-details h2 {
         font-size: 14px;
@@ -262,12 +256,5 @@
 
     .button-acceso {
         font-size: 8px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-
-    .all-books {
-        padding-top: 6650px;
     }
 }
