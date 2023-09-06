@@ -8,7 +8,7 @@ html {
         var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
         var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
         repeating-conic-gradient(#0000 0 25%, var(--c) 0 50%) var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
-        radial-gradient(50% 50%, #5BA691 98%, var(--c)) 0 0/var(--s) var(--s);
+        radial-gradient(50% 50%, #48726bde 98%, var(--c)) 0 0/var(--s) var(--s);
 }
 
 
@@ -36,7 +36,7 @@ html {
 .title-categoria {
     text-align: center;
     color: #fff;
-    background-color: #467c6d;
+    background-color: #48726b;
     padding: 10px;
     border-radius: 100px;
     box-shadow: 0 5px 15px rgb(0, 0, 0, .3)
@@ -48,7 +48,7 @@ html {
     align-items: center;
     width: 250px;
     height: 55px;
-    background-color: #467c6d;
+    background-color: #48726b;
     border-radius: 35px;
     padding: 0 12px;
     margin: 10px;
@@ -146,7 +146,7 @@ html {
 
 .menu-img:hover {
     transition: 0.1s;
-    border: 4px solid #569c88;
+    border: 4px solid #48726b;
 }
 
 .header-title-section {
