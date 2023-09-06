@@ -8,15 +8,22 @@ html {
         var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
         var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
         repeating-conic-gradient(#0000 0 25%, var(--c) 0 50%) var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
-        radial-gradient(50% 50%, #48726bde 98%, var(--c)) 0 0/var(--s) var(--s);
+        radial-gradient(50% 50%, #48726baf 98%, var(--c)) 0 0/var(--s) var(--s);
 }
 
-
+html, body, main {
+    height: 100%;
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+}
 
 .nav-elements {
     margin: 3% 4%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
 }
 
 
@@ -109,9 +116,10 @@ html {
 
 .header-banner-a img {
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.11);
-    width: 60%;
+    width: 70%;
+    height: 350px;
 }
 
 .header-elements-section {
@@ -127,11 +135,6 @@ html {
     width: 100%;
     height: 150px;
     border-bottom: 2px solid #9fbe37;
-}
-
-.header-banner img {
-    width: 20%;
-
 }
 
 .header-banner-section img {
@@ -160,6 +163,7 @@ html {
 @media screen and (max-width: 880px) {
     .header-banner-a img {
         transition: 0.8s;
-        width: 90%;
+        width: 100%;
+        height: 200px;
     }
 }
