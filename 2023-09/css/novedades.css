@@ -22,11 +22,14 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    box-shadow:
-        inset 6em -6em 6em rgb(0, 0, 0),
-        0.6em 0.6em 6em #000000;
-
 }
+
+.header-sep {
+    background-image: url("../img/ban.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .menu-img-1 {
     margin: 6px;
