@@ -1,0 +1,160 @@
+:root {
+    --background-negro:#151314;
+    --background-blanco:#ffff;
+    --background-gris:#2d3a44;
+    --background-lila:#9fbe37;
+    --color-f-derecho:#76150C;
+    --color-f-educacion:#018BBA;
+    --color-f-economia:#BA6B2D;
+    --color-f-ingenieria: #533014;
+    --color-f-arquitectura:#5F2718;
+    --letra:'Roboto', sans-serif;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {  
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 5fr 1.7fr 0.4fr 1fr 1fr 1fr 1fr 0.9fr 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid-banner grid-banner grid-banner grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-categoria1 grid-whats grid-whats grid-whats"
+        "grid-banner grid-banner grid-banner grid-categoria2 grid-categoria2 grid-categoria2 grid-categoria2 grid-categoria2 grid-categoria2 grid-categoria3 grid-categoria3 grid-categoria3 grid-categoria3 grid-categoria3 grid-categoria3 grid-categoria3 grid-categoria3"
+        "grid-banner grid-banner grid-banner grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria4 grid-categoria5 grid-categoria5 grid-categoria5 grid-categoria5 grid-categoria5 grid-categoria5";
+
+  }
+  
+.grid-banner { 
+    grid-area: grid-banner; 
+    border-radius: 10px;
+    background-image: url(../img/boletin2024.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.grid-whats { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: grid-whats;
+    background-color:var(--background-blanco);
+    border-radius: 10px;
+}
+
+.grid-whats a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+  
+.grid-categoria1 {
+    display: flex;
+    grid-area: grid-categoria1;
+    background-color:var(--background-blanco);
+    border-radius: 10px ;
+}
+  
+.grid-categoria3 {
+    display: flex; 
+    grid-area: grid-categoria3;
+    background-color:var(--background-blanco);
+    border-radius: 10px ;
+}
+  
+.grid-categoria2 {
+    display: flex;
+    grid-area: grid-categoria2;
+    background-color:var(--background-blanco);
+    border-radius: 10px;
+}
+  
+.grid-categoria4 {
+    display: flex; 
+    grid-area: grid-categoria4;
+    background-color:var(--background-blanco);
+    border-radius: 10px ;
+}
+  
+.grid-categoria5 {
+    display: flex; 
+    grid-area: grid-categoria5;
+    background-color:var(--background-blanco);
+    border-radius: 10px;
+}
+
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 25px;
+}
+
+.categoria-img {
+    width: 150px
+}
+
+.whats-img {
+    width: 50%;
+}
+
+.categoria-components {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+
+.categoria-components h2{
+    font-size: calc(8px + 1vw);
+}
+
+.categoria-components p{
+    font-size: calc(10px + 0.3vw);
+}
+
+.categoria-components a {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.categoria-components a:hover {
+    transition: 0.1s;
+    border-bottom: 2px solid #5BD9D9;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+
+.categoria-components a > p, img{
+    padding: 20px  0  5px  0;
+    color: var(--background-negro);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
