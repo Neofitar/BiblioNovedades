@@ -20,7 +20,7 @@ const diccionario = {
   libros: [
     {
       id: "21",
-      cover: '2024-01/img/portadas/21.png',
+      cover: '/2024-01/img/portadas/21.png',
       autor: "Jaume Funes",
       tema: "Encuentra tu equilibrio",
       descripcion:
