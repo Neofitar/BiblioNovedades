@@ -1,66 +1,67 @@
-.sep-body-nov {
+.ene-body {
     height: 100%;
+    background: rgb(194, 183, 184);
+    background: linear-gradient(180deg, rgba(194, 183, 184, 1) 0%, rgba(240, 238, 238, 1) 100%);
+    color: #5e5555;
+
 }
 
-.header-sep {
+.header-ene{
     width: 100%;
-    display: flex;
+    height: 130px;
+    background-color:  rgb(214, 214, 214);
+    background-image: url(../img/literatura.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    position:fixed
+
+}
+
+.header-ene-banner {
+    display: flex;;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
-    background-image: url(../img/positivo.png);
-    background-size: cover;
+    height: 100%;
+    gap: 20px;
+}
+
+.header-ene-banner h1{
+    padding: 0 10px;
+    margin: 0;
+    font-size: 35px;
+    box-shadow: 0.2em 0.2em 0.2em #c5c4c449;
+}
+
+.header-inicio {
+    background-color: #00B18D;
+    padding: 5px 20px;
+    color: #ffff;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0.2em 0.2em 0.2em #dafff8;
+}
+
+.header-inicio:hover {
     background-color: #ffff;
-    border-bottom: 1px solid #24A638;
+    padding: 5px 20px;
+    color: #00B18D;
 }
 
-.header-sep img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.header-sep {
-    background-image: url("../img/ban.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-.menu-img-1 {
-    margin: 6px;
-    padding: 2px;
-}
-
-.menu-img-1:hover {
-    transition: 0.2s;
-    background-color: #ffff;
-    border-radius: 100%;
-}
-
-.header-sep a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .all-books {
-    margin: 3%;
-    padding-top: 160px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 160px 5% 5% 5%;
+    gap: 30px;
 }
 
-.all-books div {
-    margin: 2% 0;
-}
 
 .books {
-    width: 550px;
+    width: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,10 +72,12 @@
 }
 
 
+.books {
+    box-shadow: 0.2em 0.2em 0.2em #00b18e86;
+}
+
 .books:hover {
-    box-shadow:
-        inset 0 -1em 2em rgba(9, 255, 103, 0.336),
-        0.3em 0.3em 1em #24A638;
+    box-shadow: 0.2em 0.2em 0.2em #00b18e;
 }
 
 .books img {
@@ -82,23 +85,24 @@
     height: 300px;
     margin: 10px;
     border-radius: 20px;
-    object-fit: cover;
+    object-fit:fill;
 
 }
 
 .books-details {
     width: 60%;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 
 .books-details h2 {
-    font-size: 22px;
+    font-size: 18px;
     font-family: var(--letra);
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     line-clamp: 2;
     overflow: hidden;
     box-sizing: border-box;
@@ -111,7 +115,7 @@
 
 
 .books-details h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: var(--letra);
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -127,7 +131,7 @@
 }
 
 .books-details p {
-    font-size: 14px;
+    font-size: 12px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
@@ -144,24 +148,25 @@
 .button-acceso {
     text-decoration: none;
     list-style-type: none;
+    background-color: #6d5c5d;
+    color: #ffff;
     width: 100px;
     padding: 5px;
     text-align: center;
-    border: 1px solid var(--background-negro);
     border-radius: 5px;
     font-size: 12px;
     margin-top: 25px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
+    box-shadow: 0.2em 0.2em 0.2em #c5c4c4ad;
+
 }
 
 .button-acceso a {
-    color: var(--background-negro);
     font-weight: bolder;
 }
 
 .button-acceso:hover {
-    background-color: #24A638;
-    border: #24A638;
+    background-color: #00B18D;
+    border: #00B18D;
 }
 
 .button-acceso:hover a {
@@ -183,29 +188,27 @@
     animation: aparecer 1.5s ease-out;
 }
 
-@media screen and (max-width: 1270px) {
-    .all-books {
-        margin: 3%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width: 1200px) {
+    .books {
+        width: 25rem;
     }
 }
 
-
-@media screen and (max-width: 530px) {
-
-    .header-sep {
-        width: 100%;
+@media screen and (max-width: 590px) {
+    .header-ene{
+        height: 100px;
     }
 
-    .header-sep img {
-        width: 100%;
+    .header-ene-banner h1{
+        transition: 0.4s;
+        font-size: 18px;
+        padding-top: 20px;
     }
+
 
     .all-books {
-        margin: 3%;
+        transition: 0.4s;
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -223,7 +226,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
-        width: 230px;
+        width: 250px;
         border-radius: 20px;
         height: 100%;
     }

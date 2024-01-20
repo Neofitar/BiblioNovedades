@@ -1,13 +1,6 @@
 :root {
     --background-negro:#151314;
     --background-blanco:#faf9f9;
-    --background-gris:#2d3a44;
-    --background-lila:#9fbe37;
-    --color-f-derecho:#76150C;
-    --color-f-educacion:#018BBA;
-    --color-f-economia:#BA6B2D;
-    --color-f-ingenieria: #533014;
-    --color-f-arquitectura:#5F2718;
     --letra:'Roboto', sans-serif;
 }
 
@@ -15,10 +8,11 @@
 body, html {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #4c4041;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #594b4c;
 }
 
 .container { 
@@ -66,7 +60,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: #594b4c;
     gap: 15px;
     font-weight: bold;
     text-align: center;
@@ -153,31 +147,31 @@ body, html {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     background-color: #ffff;
-    border: 3px solid #018BBA;
+    border: 3px solid #00B18D;
 }
 .grid-categoria2:hover {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     background-color: #ffff;
-    border: 3px solid #018BBA;
+    border: 3px solid #00B18D;
 }
 .grid-categoria3:hover {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     background-color: #ffff;
-    border: 3px solid #018BBA;
+    border: 3px solid #00B18D;
 }
 .grid-categoria4:hover {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     background-color: #ffff;
-    border: 3px solid #018BBA;
+    border: 3px solid #00B18D;
 }
 .grid-categoria5:hover {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     background-color: #ffff;
-    border: 3px solid #018BBA;
+    border: 3px solid #00B18D;
 }
 
 .grid-whats:hover{
@@ -185,7 +179,7 @@ body, html {
     animation: myAnim 2s ease 0s 1 normal forwards;
     cursor: pointer;
     background-color: #ffff;
-    border: 3px solid #2BB140;
+    border: 3px solid #00B18D;
 }
 
 
@@ -199,7 +193,7 @@ body, html {
     transition: 0.1s;
     animation: myAnim 2s ease 0s 1 normal forwards;
     cursor: pointer;
-    border-bottom: 2px solid #018BBA;
+    border-bottom: 2px solid #00B18D;
     padding-bottom: 2px;
 }
 
