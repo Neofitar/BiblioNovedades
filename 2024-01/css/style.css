@@ -13,7 +13,9 @@ body, html {
     justify-content: center;
     align-items: center;
     color: #594b4c;
+    font-family: var(--letra);
 }
+
 
 .container { 
     width: 100%;

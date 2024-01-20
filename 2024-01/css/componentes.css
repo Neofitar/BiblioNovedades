@@ -3,7 +3,7 @@
     background: rgb(194, 183, 184);
     background: linear-gradient(180deg, rgba(194, 183, 184, 1) 0%, rgba(240, 238, 238, 1) 100%);
     color: #5e5555;
-
+    font-family: var(--letra);
 }
 
 .header-ene{
