@@ -1,7 +1,7 @@
 :root {
     --background-negro:#151314;
     --background-blanco:#faf9f9;
-    --letra:'Roboto', sans-serif;
+    --letra: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ body, html {
     align-items: center;
     color: #594b4c;
     gap: 15px;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     height: 100%;
 }
@@ -130,7 +130,7 @@ body, html {
 
 .categoria-components h2{
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0
 }
 
@@ -187,7 +187,7 @@ body, html {
 
 .categoria-components a > p {
     color: var(--background-negro);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 12px;
 }
 

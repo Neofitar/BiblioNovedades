@@ -1,20 +1,24 @@
+:root {
+    --letra: 'Roboto Condensed', sans-serif;
+}
+
 .ene-body {
     height: 100%;
-    background: rgb(194, 183, 184);
-    background: linear-gradient(180deg, rgba(194, 183, 184, 1) 0%, rgba(240, 238, 238, 1) 100%);
+    background: #faf9f9;
+    background: linear-gradient(180deg, rgba(94, 85, 85, 1) 0%, rgba(240, 238, 238, 1) 100%);
     color: #5e5555;
-    font-family: var(--letra);
+    font-family: var(--letra) 
 }
 
 .header-ene{
     width: 100%;
     height: 130px;
-    background-color:  rgb(214, 214, 214);
+    background-color: #faf9f9e3;
     background-image: url(../img/literatura.png);
     background-size: contain;
     background-position: center;
     background-repeat: repeat-x;
-    position:fixed
+    position:fixed;
 
 }
 
@@ -31,7 +35,6 @@
     padding: 0 10px;
     margin: 0;
     font-size: 35px;
-    box-shadow: 0.2em 0.2em 0.2em #c5c4c449;
 }
 
 .header-inicio {
@@ -40,14 +43,14 @@
     color: #ffff;
     border-radius: 20px;
     font-size: 10px;
-    font-weight: bold;
+    font-weight: 500;
     box-shadow: 0.2em 0.2em 0.2em #dafff8;
 }
 
 .header-inicio:hover {
-    background-color: #ffff;
+    background-color: #5e5555;
     padding: 5px 20px;
-    color: #00B18D;
+    color:  #ffff;
 }
 
 
@@ -69,6 +72,7 @@
     border-radius: 30px;
     gap: 10px;
     box-shadow: 0 5px 15px rgba(179, 179, 179, 0.644);
+    border: 1px dashed #5e5555;
 }
 
 
@@ -161,7 +165,7 @@
 }
 
 .button-acceso a {
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .button-acceso:hover {
