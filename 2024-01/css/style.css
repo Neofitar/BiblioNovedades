@@ -603,6 +603,24 @@ body, html {
         width: 80px;
     }
 
+    @media screen and (max-width: 280px) {
+        #grid-categoria1 .categoria-img {
+            display: none;
+        }
+        #grid-categoria2 .categoria-img {
+            display: none;
+        }
+        #grid-categoria3 .categoria-img {
+            display: none;
+        }
+        #grid-categoria4 .categoria-img {
+            display: none;
+        }
+        #grid-categoria5 .categoria-img {
+            display: none;
+        }
+    
+
 }
 
 
